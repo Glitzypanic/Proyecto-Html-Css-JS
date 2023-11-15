@@ -20,6 +20,8 @@ function comprobarForm(event) {
         error.innerText = "Se debe seleccionar un tamano de panel"
         return false
     }
+    // Informacion es correcta
+        datosUsuario(nickInput)
         return true
 }
 
