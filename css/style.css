@@ -76,3 +76,12 @@ footer {
 #email {
     width: 280px;
 }
+
+#error {
+    text-align: center;
+    color: red;
+    font-size: 14;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
