@@ -24,22 +24,51 @@
         </div>
         <form action='juego.html' id="formEntrada">
             <div class="itemform">
-                <label for="nick">Introduce tu nick: </label>
+                <label for="nick">Introduce tu nick* </label>
                 <input type="text" name="nick" value="@" id="nicka" readonly>
                 <input type="text" name="nick" id="nick" required minlength="3" maxlength="10">
             </div>
             <div class="itemform">
-                <label for="email">Correo electronico</label>
+                <label for="email">Correo electrónico</label>
                 <input type="email" id="email" value="yo@iam.es">
             </div>
             <div class="itemform">
-                <label for="tamano">Tamaño del juego </label>
+                <label for="tamano">Tamaño del juego* </label>
                 <select name="tamano" id="tamano" required>
                     <option value="0">--Por favor elige un tamaño--</option>
                     <option value="1">4x4</option>
                     <option value="2">5x5</option>
                     <option value="3">6x6</option>
                 </select>
+            </div>
+            <div class="itemform">
+                <div id="avatar">
+                    <label for="avatar">Avatar</label>
+                    <div id="avatarContainer">
+                        <img src="img/avatar1.png" id="avatarImg">
+                    </div>
+                </div>
+                <div id="avatarGrid">
+                    <div class="avatarItem">
+                        <img src="img/avatar1.png" class="avatarImgItem" width="35" draggable="true">
+                    </div>
+                    <div class="avatarItem">
+                        <img src="img/avatar2.png" class="avatarImgItem" width="35" draggable="true">
+                    </div>
+                    <div class="avatarItem">
+                        <img src="img/avatar3.png" class="avatarImgItem" width="35" draggable="true">
+                    </div>
+                    <div class="avatarItem">
+                        <img src="img/avatar4.png" class="avatarImgItem" width="35" draggable="true">
+                    </div>
+                    <div class="avatarItem">
+                        <img src="img/avatar5.png" class="avatarImgItem" width="35" draggable="true">
+                    </div>
+                    <div class="avatarItem">
+                        <img src="img/avatar6.png" class="avatarImgItem" width="35" draggable="true">
+                    </div>
+
+                </div>
             </div>
             <div class="itemform">
                 <p>*Obligatorio</p>
